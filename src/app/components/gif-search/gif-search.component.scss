@@ -1,0 +1,122 @@
+.header {
+  height: 300px;
+  background-color: rgb(248, 107, 1);
+  text-align: center;
+  color: white;
+  padding: 70px;
+}
+.title {
+  font-size: 50px;
+}
+
+.search {
+  margin-top: 20px;
+}
+.search-bar {
+  height: 46px;
+  width: 495px;
+  box-sizing: border-box;
+  border: none;
+  padding-left: 15px;
+  border-radius: 3px 0 0 3px;
+}
+.dropdown {
+  height: 46px;
+  border: 1px solid grey;
+  box-sizing: content-box;
+  background-color: rgb(227, 238, 244) !important;
+  opacity: 1;
+  width: 90px;
+  text-align-last: center;
+}
+.search-button {
+  width: 50px;
+  height: 46px;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 0 3px 3px 0;
+}
+.text-md {
+  margin: 40px 0 20px 0;
+  font-size: 35px;
+}
+
+#main-content {
+  column-width: 450px;
+  column-gap: 5px;
+  margin: 10px;
+  background-color: rgb(247, 247, 247);
+}
+
+::ng-deep figure {
+  background: #fefefe;
+  border: 2px solid #fcfcfc;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  margin: 0 2px 15px;
+  padding: 15px;
+  padding-bottom: 10px;
+  transition: opacity 0.4s ease-in-out;
+  display: inline-block;
+  column-break-inside: avoid;
+}
+
+::ng-deep img {
+  width: 450px;
+}
+
+::ng-deep #main-content:hover figure:not(:hover) {
+  opacity: 0.4;
+}
+
+.footer-content {
+  background-color: rgb(54, 59, 62);
+  color: white;
+  display: flex;
+}
+
+.sign-up {
+  width: 35em;
+  font-size: 25px;
+  padding: 25px;
+}
+.categories {
+  width: 65em;
+  padding: 25px;
+}
+.email {
+  height: 30px;
+  width: 60%;
+  margin: 15px 0 10px;
+  color: white;
+  background-color: #363b3e !important;
+  border: 1px solid gray;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.sign-up-button {
+  color: white;
+  border-radius: 3px;
+  border: 1px solid grey;
+  font-size: 15px;
+  width: 60%;
+  height: 30px;
+  padding: 0;
+  background-color: rgb(44, 137, 181);
+}
+
+.browse-categories {
+  font-size: 25px;
+}
+.category-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.flex-item {
+  width: calc(100% * (1 / 4) - 10px - 1px);
+  margin-bottom: 10px;
+  opacity: 0.4;
+}
